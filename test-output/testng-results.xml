@@ -2,18 +2,28 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-10-11T22:48:34 IST" name="Suite" finished-at="2020-10-11T22:48:49 IST" duration-ms="15134">
+  <suite started-at="2020-10-11T23:22:45 IST" name="Suite" finished-at="2020-10-11T23:23:54 IST" duration-ms="69017">
     <groups>
     </groups>
-    <test started-at="2020-10-11T22:48:34 IST" name="Test" finished-at="2020-10-11T22:48:49 IST" duration-ms="15134">
+    <test started-at="2020-10-11T23:22:45 IST" name="Test" finished-at="2020-10-11T23:23:54 IST" duration-ms="69017">
+      <class name="docker.SetupDockerGrid">
+        <test-method is-config="true" signature="StartDockerGrid()[pri:0, instance:docker.SetupDockerGrid@318ba8c8]" started-at="2020-10-11T23:22:45 IST" name="StartDockerGrid" finished-at="2020-10-11T23:23:15 IST" duration-ms="30024" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartDockerGrid -->
+        <test-method is-config="true" signature="StopDockerGrid()[pri:0, instance:docker.SetupDockerGrid@318ba8c8]" started-at="2020-10-11T23:23:24 IST" name="StopDockerGrid" finished-at="2020-10-11T23:23:54 IST" duration-ms="30023" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StopDockerGrid -->
+      </class> <!-- docker.SetupDockerGrid -->
       <class name="docker.ChromeTest1">
-        <test-method signature="test()[pri:0, instance:docker.ChromeTest1@1fe20588]" started-at="2020-10-11T22:48:42 IST" name="test" finished-at="2020-10-11T22:48:49 IST" duration-ms="7038" status="PASS">
+        <test-method signature="test()[pri:0, instance:docker.ChromeTest1@3c9d0b9d]" started-at="2020-10-11T23:23:15 IST" name="test" finished-at="2020-10-11T23:23:21 IST" duration-ms="5826" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
       </class> <!-- docker.ChromeTest1 -->
       <class name="docker.FirefoxTest4">
-        <test-method signature="test4()[pri:0, instance:docker.FirefoxTest4@77167fb7]" started-at="2020-10-11T22:48:34 IST" name="test4" finished-at="2020-10-11T22:48:42 IST" duration-ms="8042" status="PASS">
+        <test-method signature="test4()[pri:0, instance:docker.FirefoxTest4@6dbb137d]" started-at="2020-10-11T23:23:15 IST" name="test4" finished-at="2020-10-11T23:23:24 IST" duration-ms="8917" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test4 -->

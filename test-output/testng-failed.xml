@@ -8,16 +8,11 @@
           <include name="test"/>
         </methods>
       </class> <!-- docker.ChromeTest1 -->
-      <class name="docker.ChromeTest2">
+      <class name="docker.FirefoxTest4">
         <methods>
-          <include name="test2"/>
+          <include name="test4"/>
         </methods>
-      </class> <!-- docker.ChromeTest2 -->
-      <class name="docker.ChromeTest3">
-        <methods>
-          <include name="test3"/>
-        </methods>
-      </class> <!-- docker.ChromeTest3 -->
+      </class> <!-- docker.FirefoxTest4 -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
