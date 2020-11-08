@@ -3,11 +3,11 @@
 <suite name="Suite" parallel="classes">
 	<test thread-count="5" name="Test">
 		<classes>
-			<class name="docker.SetupDockerGrid" />
-			<class name="docker.FirefoxTest4" />
-			<class name="docker.ChromeTest1" />
-<!-- 			<class name="docker.ChromeTest3" />
-			<class name="docker.ChromeTest2" /> -->
+			<class name="dockerTests.SetupDockerGrid" />
+			<class name="dockerTests.FirefoxTest4" />
+			<class name="dockerTests.ChromeTest1" />
+<!-- 			<class name="dockerTests.ChromeTest3" />
+			<class name="dockerTests.ChromeTest2" /> -->
 		</classes>
 	</test> <!-- Test -->
 </suite> <!-- Suite -->

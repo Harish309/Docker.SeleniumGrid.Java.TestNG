@@ -3,10 +3,10 @@
 <suite name="Suite" parallel="classes">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="Kubernetes.Selenium.FirefoxTest4"/>
-<!--       <class name="Kubernetes.Selenium.ChromeTest3"/> -->
-      <class name="Kubernetes.Selenium.ChromeTest2"/>
-      <class name="Kubernetes.Selenium.ChromeTest1"/>
+      <class name="kubernetesTest.FirefoxTest4"/>
+<!--       <class name="kubernetesTest.ChromeTest3"/> -->
+      <class name="kubernetesTest.ChromeTest2"/>
+      <class name="kubernetesTest.ChromeTest1"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
